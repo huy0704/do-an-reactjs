@@ -1,0 +1,292 @@
+.boxChat {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  height: 600px;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: -160px;
+  border-radius: 10px;
+  position: relative;
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 50%
+  );
+}
+.sidebar {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  width: 210px;
+  height: 580px;
+  border-radius: 10px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.chat {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  position: absolute;
+  width: 560px;
+  height: 580px;
+  margin-left: 230px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.btnLogOut {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header {
+  width: 560px;
+  height: 90px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 10px 10px 0px 0px;
+}
+.header > img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  border-radius: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 14px;
+  left: 90px;
+  color: white;
+}
+p {
+  color: green;
+  position: absolute;
+  top: 35px;
+  left: 90px;
+}
+.cube {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 65px;
+  left: 56px;
+}
+.inputSearch {
+  background-color: #9fc5e8;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: none;
+  margin-top: 19px;
+}
+.users {
+  width: 200px;
+  height: 462px;
+  border-radius: 10px;
+  margin-top: -12px;
+  position: relative;
+}
+.user1 {
+  width: 200px;
+  height: 60px;
+  background-color: #9fc5e8;
+  margin-top: 45px;
+  border-radius: 10px;
+  position: relative;
+}
+.user1 > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.user2 {
+  width: 200px;
+  height: 60px;
+  background-color: #3d85c6;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.user2 > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.user3 {
+  width: 200px;
+  height: 60px;
+  background-color: #3d85c6;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.user3 > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.user4 {
+  width: 200px;
+  height: 60px;
+  background-color: #3d85c6;
+  margin-top: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+.user4 > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+ten {
+  position: absolute;
+  top: 14px;
+  left: 67px;
+}
+.cube1 {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 41px;
+  left: 38px;
+}
+.cube2 {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 41px;
+  left: 38px;
+}
+.cube3 {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 41px;
+  left: 38px;
+}
+.cube4 {
+  width: 15px;
+  height: 15px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 41px;
+  left: 38px;
+}
+email {
+  position: absolute;
+  top: 52px;
+  right: 12px;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.inputChat {
+  background-color: #9fc5e8;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 0px 0px 10px 10px;
+  border: none;
+  bottom: 0;
+  width: 560px;
+  height: 59px;
+  padding: 10px 10px;
+}
+.chatInput {
+  position: absolute;
+  bottom: 0;
+}
+.chatInput > button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  width: 51px;
+  height: 36px;
+  border-radius: 10px;
+}
+.rep1 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.rep1 > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.onl1 {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  top: 142px;
+  left: 49px;
+}
+.chat1 {
+  background-color: #f0f8ff;
+  position: absolute;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  left: 66px;
+  margin: 8px;
+}
+.rep2 {
+  margin-top: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+.rep2 > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: absolute;
+  right: 10px;
+}
+.onl2 {
+  width: 12px;
+  height: 12px;
+  background-color: green;
+  border-radius: 50%;
+  border: solid 1px white;
+  position: absolute;
+  right: 38px;
+  top: 34px;
+}
+.chat2 {
+  background-color: #f0f8ff;
+  position: absolute;
+  border-radius: 20px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  left: 267px;
+  margin: 8px;
+}
